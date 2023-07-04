@@ -29,8 +29,9 @@ Ensure you have [Rust installed](https://www.rust-lang.org/tools/install).
 Then, clone the repository and build the project:
 
 ```sh
-git clone https://github.com/yourusername/wget-rust.git
-cd wget-rust
+git clone https://github.com/yourusername/wget.git
+cd wget
+cd wget
 cargo build --release
 ```
 
@@ -76,7 +77,7 @@ scraper = "0.12"
 
 After building, you can use the program with the following command:
 ```sh
-./target/release/wget-rust -B <url> -O=<output> -P=<directory>
+./target/release/wget -B <url> -O=<output> -P=<directory>
 ```
 If you encounter permission denied problem try to use:
 ```sh 
